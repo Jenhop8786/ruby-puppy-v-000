@@ -8,7 +8,7 @@ class Dog
     @name = name
   end
 
-  def self.all?
+  def self.all
     @@all.map do |dog|
       puts dog.name
     end
